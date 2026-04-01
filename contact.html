@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Pete's Bread</title>
+  <meta name="description" content="Get in touch with Pete's Bread microbakery on Northern Ireland's Causeway Coast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner">
+      <a href="index.html" class="logo-link">
+        <img src="images/PB_LOGO.png" alt="Pete's Bread logo" class="logo-img" />
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="bakes.html">BAKES</a></li>
+        <li><a href="classes.html">CLASSES</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero page-hero--short">
+    <div class="page-hero-bg" style="background-image:url('images/IMG_0038.jpg')"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="hero-eyebrow">Get in touch</p>
+      <h1>Contact</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <p class="body-large">Have a question about our bakes, classes or Peatlands? Drop us a message and we'll get back to you.</p>
+
+      <!-- Replace YOUR_FORM_ID below with your Formspree form ID after signing up at formspree.io -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="How can we help?"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Send Message</button>
+        <p class="form-note" id="form-status"></p>
+      </form>
+
+      <div class="contact-also">
+        <p>You can also find us via <a href="https://www.peatlandscausewaycoast.com/" target="_blank" rel="noopener">Peatlands Causeway Coast</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="images/PB_LOGO.png" alt="Pete's Bread" class="footer-logo" />
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="bakes.html">Bakes</a>
+        <a href="classes.html">Classes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; 2025 Pete's Bread. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
