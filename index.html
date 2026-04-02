@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pete's Bread | Award-winning Microbakery, Causeway Coast</title>
-  <meta name="description" content="Award-winning artisan microbakery on Northern Ireland's Causeway Coast. Naturally-leavened sourdough bread, patisserie and breakfast bakes." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <title>HOME | Pete's Bread</title>
+  <meta name="description" content="Award-winning microbakery on Northern Ireland's north coast and on-site bakery at Peatlands, Causeway Coast." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,7 +13,7 @@
   <header class="site-header" id="site-header">
     <nav class="nav-inner">
       <a href="index.html" class="logo-link">
-        <img src="images/PB_LOGO.png" alt="Pete's Bread logo" class="logo-img" />
+        <img src="images/PB_LOGO.png" alt="Pete's Bread" class="logo-img" />
       </a>
       <button class="hamburger" id="hamburger" aria-label="Open menu">
         <span></span><span></span><span></span>
@@ -30,134 +27,115 @@
     </nav>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-slides">
-      <div class="hero-slide active" style="background-image:url('images/golden_crust.jpg')"></div>
-      <div class="hero-slide" style="background-image:url('images/IMG_0038.jpg')"></div>
-      <div class="hero-slide" style="background-image:url('images/SLICED_SOURDOUGH.jpg')"></div>
-      <div class="hero-slide" style="background-image:url('images/IMG_1185.jpeg')"></div>
-    </div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-eyebrow">Award-winning microbakery</p>
-      <h1 class="hero-title">Pete's Bread</h1>
-      <p class="hero-sub">Naturally-leavened sourdough &amp; artisan patisserie<br>on Northern Ireland's Causeway Coast</p>
-      <a href="bakes.html" class="btn-primary">Our Bakes</a>
-    </div>
-    <div class="hero-dots" id="hero-dots"></div>
-  </section>
+  <div class="page-content">
 
-  <!-- INTRO -->
-  <section class="section intro-section">
-    <div class="container narrow">
-      <p class="section-label">About the bakery</p>
-      <h2>A bakery shaped by&nbsp;passion</h2>
-      <p class="body-large">Pete's Bread is a micro bakery in the beautiful Causeway Coast area of Northern Ireland, specialising in nutritious, naturally-leavened, country-style sourdough bread. Our bakes are available exclusively to guests at <a href="https://www.peatlandscausewaycoast.com/" target="_blank" rel="noopener">Peatlands, Causeway Coast</a>.</p>
+    <!-- TAGLINE ABOVE HERO -->
+    <div class="hero-caption">
+      <h3>Award-winning microbakery on Northern Ireland's north coast and on-site bakery at <a href="https://www.peatlandscausewaycoast.com/" target="_blank" rel="noopener">Peatlands, Causeway Coast</a> offering guests artisan sourdough bread, cookies and breakfast patisserie.</h3>
     </div>
-  </section>
 
-  <!-- TESTIMONIALS -->
-  <section class="section testimonials-section">
-    <div class="container">
-      <p class="section-label">What people say</p>
-      <div class="testimonials-grid">
-        <blockquote class="testimonial">
-          <p>"My favourite ever sourdough."</p>
-        </blockquote>
-        <blockquote class="testimonial">
-          <p>"The best bakes in town — Saturday mornings have never been looked forward to with so much anticipation!"</p>
-        </blockquote>
-        <blockquote class="testimonial">
-          <p>"Whoever we introduce to your bread — without exception — loves it."</p>
-        </blockquote>
+    <!-- HERO SLIDESHOW -->
+    <div class="hero">
+      <div class="hero-slides">
+        <div class="hero-slide active" style="background-image:url('images/golden_crust.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('images/IMG_0038.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('images/SLICED_SOURDOUGH.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('images/IMG_1185.jpeg')"></div>
+      </div>
+      <div class="hero-dots" id="hero-dots"></div>
+    </div>
+
+    <!-- INTRO -->
+    <div class="intro-block">
+      <p>Pete's Bread is a micro bakery in the beautiful Causeway Coast area of Northern Ireland specialising in nutritious, naturally-leavened, country-style sourdough bread.</p>
+    </div>
+
+    <!-- FULL WIDTH IMAGE -->
+    <div class="full-image container">
+      <img src="images/IMG_0038.jpg" alt="Pete's sourdough bread" />
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="section">
+      <div class="testimonials">
+        <h3>What people say:</h3>
+        <blockquote>"My favourite ever sourdough."</blockquote>
+        <blockquote>"The best bakes in town - Saturday mornings have never been looked forward to with so much anticipation!"</blockquote>
+        <blockquote>"Whoever we introduce to your bread - without exception - loves it."</blockquote>
       </div>
     </div>
-  </section>
 
-  <!-- PROCESS -->
-  <section class="section process-section">
-    <div class="process-inner">
-      <div class="process-image">
-        <img src="images/bread_boards.jpg" alt="Pete's sourdough loaves on boards" />
-      </div>
-      <div class="process-text">
-        <p class="section-label">The process</p>
-        <h2>Bread worth waiting for</h2>
-        <p>Pete's Bread sourdough is made from a blend of speciality flours, water and sea salt — no artificial ingredients, flour improvers or preservatives.</p>
-        <p>Each loaf takes around 32 hours to make. They're hand-shaped, proofed slowly in wood pulp bannetons and baked in a stone oven to a golden brown crust.</p>
-        <p>The long, slow fermentation process produces a tastier, more digestible loaf with a wild open crumb.</p>
+    <!-- PROCESS -->
+    <div class="section">
+      <div class="process">
+        <h3>Process</h3>
+        <p>Pete's Bread sourdough is made from a blend of speciality flours, water and sea salt with no artificial ingredients, flour improvers or preservatives.&nbsp; Each loaf takes around 32 hours to make; they're hand-shaped, proofed slowly in wood pulp bannetons and baked in a stone oven to a golden brown crust.&nbsp; The long, slow fermentation process produces a tastier, more digestible loaf with a wild open crumb.</p>
       </div>
     </div>
-  </section>
 
-  <!-- BADGES -->
-  <section class="section badges-section">
-    <div class="container">
-      <div class="badges-grid">
+    <!-- BADGES: Real Bread / Award / Hygiene -->
+    <div class="section">
+      <div class="badges">
 
-        <div class="badge-card">
-          <img src="images/sourdough-loaf-mark-1000w-05Jun23.png" alt="Real Bread Campaign" class="badge-logo" />
-          <div class="badge-text">
+        <div class="badge">
+          <img src="images/sourdough-loaf-mark-1000w-05Jun23.png" alt="Real Bread Campaign" style="width:140px;height:140px;object-fit:contain;" />
+          <div>
             <h3>Real Bread</h3>
-            <p>Pete's Bread is REAL sourdough — just flour, water and sea salt. No additives. No industrial yeast. Pete's Bread is a member of the Real Bread Campaign.</p>
+            <p>Pete's Bread is REAL sourdough bread, made with only three ingredients; flour, water and sea salt.</p>
+            <p>No additives.&nbsp; No industrial yeast.</p>
+            <p>Pete's Bread is a member of the Real Bread Campaign.</p>
           </div>
         </div>
 
-        <div class="badge-card">
-          <img src="images/Pete's Bread Peatlands Loaf Gold.png" alt="Tiptree World Bread Awards Gold 2022" class="badge-logo" />
-          <div class="badge-text">
+        <div class="badge">
+          <img src="images/Pete's Bread Peatlands Loaf Gold.png" alt="Tiptree World Bread Awards Gold 2022" style="width:100px;object-fit:contain;" />
+          <div>
             <h3>Award Winning</h3>
-            <p>The Peatlands Loaf — Pete's signature sourdough — won a <strong>Gold award</strong> at the Tiptree World Bread Awards 2022.</p>
+            <p>Pete's Bread signature sourdough the Peatlands Loaf won a GOLD award in the Tiptree World Bread Awards 2022.</p>
           </div>
         </div>
 
-        <div class="badge-card badge-card--text">
-          <div class="badge-star">★★★★★</div>
-          <div class="badge-text">
-            <h3>Food You Can Trust</h3>
-            <img src="images/fhrs_5_en-gb.jpg" alt="5-star Food Hygiene Rating" class="badge-hygiene" />
-            <p>Pete's Bread bakery holds a <strong>5-star Food Hygiene rating</strong>, awarded by Causeway Coast &amp; Glens Borough Council.</p>
+        <div class="badge">
+          <img src="images/fhrs_5_en-gb.jpg" alt="5-star Food Hygiene Rating" style="width:195px;object-fit:contain;" />
+          <div>
+            <h3>Food you can trust</h3>
+            <p>Pete's Bread bakery carries a 5-star Food Hygiene rating, awarded by Causeway Coast &amp; Glens Borough Council</p>
           </div>
         </div>
 
       </div>
     </div>
-  </section>
 
-  <!-- PEATLANDS FEATURE -->
-  <section class="section peatlands-section">
-    <div class="peatlands-inner">
-      <div class="peatlands-image">
+    <!-- PEATLANDS STAY -->
+    <div class="section">
+      <div class="peatlands-stay">
+        <h3>Stay at Peatlands / Pete's Bread</h3>
+        <p>Stay at Peatlands and have your bakes delivered fresh to your luxury shepherd's hut accommodation.</p>
         <img src="images/IMG_1185.jpeg" alt="Peatlands Causeway Coast shepherd's hut" />
-      </div>
-      <div class="peatlands-text">
-        <p class="section-label">Stay &amp; savour</p>
-        <h2>Stay at Peatlands</h2>
-        <p>Stay at Peatlands and have your bakes delivered fresh to your luxury shepherd's hut accommodation on Northern Ireland's stunning Causeway Coast.</p>
-        <a href="https://www.peatlandscausewaycoast.com/" target="_blank" rel="noopener" class="btn-secondary">Learn More</a>
+        <a href="https://www.peatlandscausewaycoast.com/" target="_blank" rel="noopener" class="btn-link">LEARN MORE</a>
       </div>
     </div>
-  </section>
 
-  <!-- MEET PETE -->
-  <section class="section meet-pete-section">
-    <div class="container">
-      <div class="meet-pete-inner">
-        <div class="meet-pete-text">
-          <p class="section-label">The baker</p>
-          <h2>Meet Pete</h2>
-          <p>Pete Hathaway is a self-taught baker who has been running his micro bakery and supplying his local community since 2021. He specialises in making country-style sourdough bread using speciality flours.</p>
-          <p>Pete's Bread was established in Oxford, England, when Pete's passion for baking sourdough for family and friends grew into a small business — delivering bread, patisserie and sweet treats around the neighbourhood by bike every Saturday morning, from a small 2.5m wooden cabin at the bottom of the garden.</p>
-          <p>In 2022, Pete, his family and his microbakery relocated to the Causeway Coast, Northern Ireland. His signature sourdough, <em>The Peatlands Loaf</em>, won a Gold award at the 2022 World Bread Awards.</p>
-          <p>Pete's sourdough and patisserie is now available exclusively to guests at Peatlands Causeway Coast.</p>
-        </div>
-        <div class="meet-pete-image">
-          <img src="images/meet_pete1.png" alt="Pete baking" />
+    <!-- MEET PETE -->
+    <div class="section">
+      <div class="meet-pete">
+        <h3>Meet Pete</h3>
+        <div class="meet-pete-inner">
+          <div class="meet-pete-text">
+            <p>Pete Hathaway is a self-taught baker who has been running his micro bakery and supplying his local community since 2021.&nbsp; He specialises in making country-style sourdough bread using speciality flours.</p>
+            <p>Pete's Bread micro bakery was established in Oxford, England when Pete's passion for baking sourdough at home for family and friends grew into a small business - baking bread, patisserie and other sweet treats and delivering them around the neighbourhood by bike, every Saturday morning.&nbsp; Back then, the bakery was housed in a small 2.5m wooden cabin at the bottom of the garden!</p>
+            <p>In 2022, Pete, his family and his microbakery all relocated to the Causeway Coast, Northern Ireland.</p>
+            <p>His signature sourdough 'The Peatlands Loaf' won a Gold award in the 2022 World Bread Awards.</p>
+            <p>Pete's sourdough and patisserie is now available exclusively to guests at Peatlands Causeway Coast.</p>
+          </div>
+          <div class="meet-pete-image">
+            <img src="images/meet_pete1.png" alt="Pete Hathaway" />
+          </div>
         </div>
       </div>
     </div>
-  </section>
+
+  </div><!-- end page-content -->
 
   <!-- FOOTER -->
   <footer class="site-footer">
@@ -169,7 +147,7 @@
         <a href="classes.html">Classes</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <p class="footer-copy">&copy; 2025 Pete's Bread. All rights reserved.</p>
+      <p class="footer-copy">&copy; 2025, Pete's Bread&nbsp; All rights reserved</p>
     </div>
   </footer>
 
